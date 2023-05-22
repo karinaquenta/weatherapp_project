@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f2f2f2; */
+    background-image: url(./images/forecastbackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #393535;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    
+   
+}
+
+/* .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+    
+} */
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+#weatherTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#weatherTable th,
+#weatherTable td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#weatherTable th {
+    background-color: #f2f2f2;
+}
+
+#weatherTable th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#weatherTableMain {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    vertical-align: middle;
+}
+
+
+
+#weatherTableMain i {
+    font-size: 24px;
+    color: #333;
+}
+
+#iconCell {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
